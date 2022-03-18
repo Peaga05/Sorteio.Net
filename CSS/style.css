@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: yellow;
+    font-family: 'Fredoka One', 'cursive';    
+}
+
+body{
+    background-color: rgb(17, 17, 17);
+}
+
+main{
+    width: 600px;
+    height: 400px;
+    background-color: black;
+
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 20px;
+
+    border-radius: 5%;
+}
+
+#titulo{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#text{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#textArea{
+    width: 300px;
+    height: 35px;
+
+    display: flex;
+
+    margin: auto;
+    margin-top: 25px;
+
+    padding-left: 5px;
+
+    color: black;
+    font-size: 25px;
+
+}
+
+#sortButton{
+    width: 250px;
+    height: 35px;
+
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+
+    padding-left: 85px;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+
+    font-size: 18px;
+}
+
+#sortButton:hover{
+    background-color: rgb(214, 214, 18);
+}
+
+#numRadom{
+    text-align: center;
+    margin-top: 10px;
+
+    font-size: 100px;
+}
+
+
+#logo{
+    display: flex;
+    margin: auto;
+}
+
+@media screen and (max-width:768px){
+
+    body{
+        background-color: rgb(34, 34, 34);
+    }
+    main{
+        background-color: rgb(34, 34, 34);
+    }
+    #sortButton{
+        width: 100px;
+        height: 35px;
+        padding-left: 5px;
+    }
+
+}
+
+@media screen and (max-width:280px){
+    #titulo{
+        font-size: 18px;
+    }
+    
+    #text{
+       font-size: 14px;
+    }
+    #textArea{
+        width: 200px;
+        height: 35px;
+    }
+    #sortButton{
+        width: 150px;
+        height: 35px;
+        padding-left: 30px;
+    }    
+}
